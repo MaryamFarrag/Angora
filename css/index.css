@@ -231,25 +231,7 @@ body{
     margin-top:120px;
     font-size: 70px; 
 }
-.arrows{
-    border-top:white 1px solid;
-    border-right:white 1px solid;
-    border-bottom:white 1px solid;
-    top:40%;
-    left:0;
-    position: absolute;
-    padding-top:10px;
-    height:75px;
-    width:50px;
-    text-align: center;
-}
-.arrows .arr-left{
-    border-bottom: 1px white solid;
-    height:45%;
-}
-.arrows .arr-right{
-    padding-top: 5px;
-}
+
 .mouse{
     width:25px;
     height:40px;
@@ -307,9 +289,12 @@ hr{
     font-size: 16px;
     font-weight: 600;
 }
-.our-team .member .img{
+.our-team .member{
     overflow: hidden;
-    margin-bottom:10px;
+
+}
+
+.our-team .member .img{
     position: relative;
 }
 .our-team .member .img .layer{
@@ -325,6 +310,12 @@ hr{
 }
 .our-team .member p{
     font-size:13px;
+}
+h4{
+    margin-top:20px;
+}
+.img-cont{
+    overflow: hidden;
 }
 .our-team .member:hover h4{
     color:#f25454;
